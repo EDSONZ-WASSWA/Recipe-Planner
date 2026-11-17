@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipe Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#view">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#recipes"><svg class="brand-logo" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 13h17c0 4.6-3.4 7.5-8.5 7.5S3.5 17.6 3.5 13z"/><path d="M12 12V8.5"/><path d="M12 9.5c0-3 2-5 5-5 0 3-2 5-5 5z"/><path d="M12 10.5c0-2-1.5-3.5-4-3.5 0 2.2 1.5 3.5 4 3.5z"/></svg>Recipe Planner</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">&#9776;</button>
+      <nav id="main-nav" class="main-nav" aria-label="Main"></nav>
+    </div>
+  </header>
+
+  <main id="view" class="view" tabindex="-1"></main>
+
+  <footer class="footer">Recipe Planner — NoSQL course project</footer>
+
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
